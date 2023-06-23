@@ -4,10 +4,10 @@
   let uls = document.getElementById('tasks')
   
   formbtn.addEventListener("submit" , ()=> {
-      
+     
       let namelist = document.createElement('li')
-      namelist.innerText = descrpt.value
+      namelist.textContent = formbtn.value
       uls.appendChild(namelist)
-      e.preventDefault(n)
-   })
+      e.preventDefault()
+   }) 
    
